@@ -20,13 +20,6 @@ $(function () {
 	 */
 
 	$.backstretch([
-		// "assets/img/background/polygon/1.jpg",
-		// "assets/img/background/polygon/2.jpg",
-		// "assets/img/background/polygon/3.jpg",
-		// "assets/img/background/polygon/4.jpg",
-		// "assets/img/background/polygon/5.jpg",
-		// "assets/img/background/polygon/6.jpg",
-		// "assets/img/background/polygon/7.jpg"
 		"assets/img/background/space/1.jpg",
 		"assets/img/background/space/2.jpg",
 		"assets/img/background/space/3.jpg",
@@ -118,9 +111,9 @@ $(function () {
 	 */
 
 	$(".rotate").textrotator({
-		animation: "dissolve", 	// You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+		animation: "fade", 			// You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
 		separator: ",", 			// If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-		speed: 2000 				// How many milliseconds until the next word shows.
+		speed: 3800 				// How many milliseconds until the next word shows.
 	});
 
 
