@@ -55,6 +55,9 @@ p {
     margin-bottom: 20px;
     font-size: 16px;
 }
+.monospace {
+    font-family: 'Menlo', 'Consolas', monospace;
+}
 a {
     color: #2b9fe9;
     word-wrap: break-word;
