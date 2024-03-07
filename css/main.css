@@ -93,11 +93,11 @@ img {
 }
 
 .u-link:hover:before {
-    background-color: #fa8072
+    background-color: salmon
 }
 
 .u-shadow {
-    text-shadow: 4px 4px 0 #6fd1bd;
+    text-shadow: 4px 4px 0 #009EE3;
     transition: text-shadow .2s ease-in-out
 }
 
@@ -354,7 +354,7 @@ ul {
 a.Navbar-btn {
     padding-left: 2rem;
     padding-right: 2rem;
-    background: #6fd1bd
+    background: #009EE3
 }
 
 a.Navbar-btn:hover {
@@ -400,7 +400,7 @@ a.Navbar-btn:hover {
 
 .Tag:hover:before {
     transform: scale(1.05, 1.6);
-    background-color: #6fd1bd;
+    background-color: #009EE3;
     transition-delay: 0s;
     transition-duration: .1s
 }
