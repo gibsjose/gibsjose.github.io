@@ -117,6 +117,12 @@ a:hover .u-shadow {
     }
 }
 
+@media (max-width:350px) {
+    .u-hidden\@xxs-down {
+        display: none !important
+    }
+}
+
 body {
     color: #333;
     font-size: 1.6rem;
